@@ -11,7 +11,6 @@ for rng in f:
         id = str(start)
         if id[:int((len(id)/2))] == id[int((len(id)/2)):]:
             sum += int(id)
-            # print(id)
         start += 1
 
 print(sum)
